@@ -13,3 +13,9 @@ wget https://huggingface.co/thewh1teagle/phonikud-onnx/resolve/main/phonikud-1.0
 wget https://github.com/thewh1teagle/phonikud-chatterbox/releases/download/asset-files-v1/ref1.wav
 uv run examples/example_tts.py
 ```
+
+## Use as a library
+
+```console
+pip install phonikud-chatterbox
+```
