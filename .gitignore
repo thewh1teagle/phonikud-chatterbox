@@ -1,0 +1,7 @@
+*.wav
+__pycache__/
+.venv/
+venv/
+.DS_Store
+*.onnx
+*.pt

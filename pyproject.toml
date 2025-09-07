@@ -1,0 +1,21 @@
+[project]
+name = "phonikud-chatterbox"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "thewh1teagle", email = "61390950+thewh1teagle@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "chatterbox",
+    "phonikud>=0.4.1",
+    "phonikud-onnx>=1.0.6",
+]
+
+[build-system]
+requires = ["uv_build>=0.8.4,<0.9.0"]
+build-backend = "uv_build"
+
+[tool.uv.sources]
+chatterbox = { git = "https://github.com/thewh1teagle/chatterbox.git", rev = "feat/add-uv-and-enhance-project-setup" }
