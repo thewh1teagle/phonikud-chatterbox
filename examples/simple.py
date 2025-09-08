@@ -1,6 +1,6 @@
 """
 wget https://huggingface.co/thewh1teagle/phonikud-onnx/resolve/main/phonikud-1.0.int8.onnx
-wget https://github.com/thewh1teagle/phonikud-chatterbox/releases/download/asset-files-v1/ref3.wav
+wget https://github.com/thewh1teagle/phonikud-chatterbox/releases/download/asset-files-v1/female1.wav
 uv run examples/example_tts.py
 """
 import torchaudio as ta
@@ -22,7 +22,7 @@ with_diacritics = phonikud_model.add_diacritics(text)
 # remove non standard diacritics
 with_diacritics = re.sub(fr"[{lexicon.NON_STANDARD_DIAC}]", "", with_diacritics)
 print(f'Input: {with_diacritics}')
-ref_path = "ref3.wav" # Change to whatever voice you want to use ✨
+ref_path = "female1.wav" # Change to whatever voice you want to use ✨
 language_id = "he"
 output_path = "audio.wav"
 
