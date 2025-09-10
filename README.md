@@ -2,7 +2,7 @@
 
 Hebrew TTS with [ChatterBox](https://github.com/resemble-ai/chatterbox) and [Phonikud](https://phonikud.github.io)
 
-https://github.com/user-attachments/assets/085ba225-f220-4b30-85df-e658ce720edf
+https://github.com/user-attachments/assets/8f4f8737-582a-4ac3-85ad-c22a38b17219
 
 ## Setup
 
